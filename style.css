@@ -1,0 +1,205 @@
+body {
+  height: 100vh;
+  font-family: "Rock Salt", cursive;
+  background-color: #1597bb;
+  font-family: "Press Start 2P", cursive;
+  font-family: "Finger Paint", cursive;
+  font-family: "Bungee Shade", cursive;
+  color: #1597bb;
+}
+
+.title {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  letter-spacing: 9px;
+  font-weight: bolder;
+  color: #fdbaf8;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 450px;
+  background-color: #fdbaf8;
+  border-style: solid;
+  border-color: #51c4d3;
+  border-width: 3px;
+  border-radius: 30px;
+  box-shadow: 5px 4px 38px -1px #fdbaf8;
+  -webkit-box-shadow: 5px 4px 38px -1px #fdbaf8;
+  -moz-box-shadow: 5px 4px 38px -1px #fdbaf8;
+}
+
+.game-explanation {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 57%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 450px;
+  background-color: #fdbaf8;
+  border-style: solid;
+  border-color: #51c4d3;
+  border-width: 3px;
+  border-radius: 30px;
+  box-shadow: 5px 4px 38px -1px #fdbaf8;
+  -webkit-box-shadow: 5px 4px 38px -1px #fdbaf8;
+  -moz-box-shadow: 5px 4px 38px -1px #fdbaf8;
+  text-align: center;
+  font-size: 1.7rem;
+  font-weight: bolder;
+}
+
+.images {
+  position: relative;
+  top: -20px;
+}
+
+.player-card-face,
+.computer-card-face {
+  width: 150px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.player-card-back,
+.computer-card-back {
+  width: 150px;
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 120px;
+}
+
+.face-1,
+.back-1 {
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+.player-1,
+.player-2 {
+  flex: 1;
+  align-items: center;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2rem;
+  text-shadow: 3px 2px 14px rgba(28, 169, 220, 0.6);
+  letter-spacing: 6px;
+}
+
+h4 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #1597bb;
+  letter-spacing: 3px;
+}
+
+.player-score-message,
+.computer-score-message {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 185px;
+}
+
+.player-score,
+.computer-score {
+  text-align: center;
+  margin-top: 5px;
+  font-size: 2.1rem;
+  text-shadow: 3px 2px 14px rgba(28, 169, 220, 0.6);
+}
+
+.hidden {
+  display: none;
+}
+
+.game-rules {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+  position: absolute;
+  top: 28%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.angel-cat,
+.annoyed-cat {
+  flex: 1;
+  width: 50px;
+}
+
+.devious-cat {
+  flex: 1;
+  width: 45px;
+}
+
+.btn-roll {
+  position: absolute;
+  width: 100px;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn-restart {
+  position: absolute;
+  width: 100px;
+  top: 42%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(270deg);
+}
+
+.winner-display {
+  position: absolute;
+  left: 300px;
+  top: 150px;
+  width: 200px;
+  font-size: 1.7rem;
+  text-align: center;
+  font-weight: bolder;
+  text-shadow: 3px 2px 14px rgba(28, 169, 220, 0.6);
+}
+
+.artists {
+  position: absolute;
+  width: 600px;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fdbaf8;
+  text-align: center;
+}
+
+/* unvisited link */
+a:link {
+  color: #fdbaf8;
+}
+
+/* visited link */
+a:visited {
+  color: #fdbaf8;
+}
+
+/* mouse over link */
+a:hover {
+  color: #fdbaf8;
+}
+
+/* selected link */
+a:active {
+  color: #fdbaf8;
+}
